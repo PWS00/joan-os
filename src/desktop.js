@@ -1,5 +1,5 @@
 import DragSelect from "dragselect";
-import Resume from "../static/resume/Joan_Ramos_Refusta_CV_2024.pdf";
+import Resume from "../static/resume/PietroWalterSoriano-CV.pdf";
 import Experience from "./experience";
 import AboutMe from "./about-me";
 import Credits from "./credits";
