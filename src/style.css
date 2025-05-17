@@ -22,7 +22,7 @@
   -webkit-font-smoothing: antialiased !important;
   box-sizing: content-box !important;
 }
-body {
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: antialiased;
@@ -48,7 +48,7 @@ body {
     /* Rimuovi o commenta la linea dell'animazione: */
     /* animation: 100s ease-in infinite change-background; */
 }
-}
+
 @keyframes change-background {
   0%,
   5% {
