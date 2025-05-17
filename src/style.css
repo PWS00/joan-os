@@ -23,22 +23,31 @@
   box-sizing: content-box !important;
 }
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
-  -webkit-text-stroke: 0px !important;
-  -webkit-font-smoothing: antialiased !important;
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-text-stroke: 0px !important;
+    -webkit-font-smoothing: antialiased !important;
 
-  margin: auto;
+    margin: auto;
 
-  background: #fff;
-  user-select: none;
+    /* Rimuovi background: #fff; o commentalo se vuoi */
+    user-select: none;
 
-  background-size: 100%;
+    /* Modifica o aggiungi queste righe per lo sfondo immagine */
+    background-image: url('https://cdn.pixabay.com/photo/2025/04/18/02/44/search-engine-optimization-9541484_1280.jpg'); /* Inserisci qui il percorso dell'immagine */
+    background-size: cover; /* Assicura che l'immagine copra tutta l'area */
+    background-repeat: no-repeat; /* Impedisce che l'immagine si ripeta */
+    background-position: center center; /* Centra l'immagine */
+    background-attachment: fixed; /* Opzionale: l'immagine rimane fissa durante lo scroll (anche se overflow-y è hidden) */
 
-  font-family: sans-serif;
 
-  overflow-y: hidden;
-  animation: 100s ease-in infinite change-background;
+    font-family: sans-serif;
+
+    overflow-y: hidden;
+    /* Rimuovi o commenta la linea dell'animazione: */
+    /* animation: 100s ease-in infinite change-background; */
+}
 }
 @keyframes change-background {
   0%,
