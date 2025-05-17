@@ -35,7 +35,7 @@ body {
     user-select: none;
 
     /* Modifica o aggiungi queste righe per lo sfondo immagine */
-    background-image: url('https://cdn.pixabay.com/photo/2025/04/18/02/44/search-engine-optimization-9541484_1280.jpg'); /* Inserisci qui il percorso dell'immagine */
+    background-image: url('sea.png'); /* Inserisci qui il percorso dell'immagine */
     background-size: cover; /* Assicura che l'immagine copra tutta l'area */
     background-repeat: no-repeat; /* Impedisce che l'immagine si ripeta */
     background-position: center center; /* Centra l'immagine */
